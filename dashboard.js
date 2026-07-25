@@ -18,11 +18,12 @@ main.innerHTML = "<h2>Loading...</h2>";
 
 async function askAI() {
     const response = await fetch(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?="",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",
         {
             method: "POST",
             headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "application/json",
+                "X-goog-api-key": ""
             },
             body: JSON.stringify({
                 contents: [
