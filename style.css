@@ -16,6 +16,7 @@ body{
 } */
 }
 .box1{
+    
     position: relative;
     height: 900px;
     width: 1000px;
@@ -179,4 +180,94 @@ p{
     color: black;
     background-color: aliceblue;
     border: 0.2px solid black;
+}
+#men{
+    position: fixed;
+    z-index: 9999;
+    position: absolute;
+    top:20px;
+    left:20px;
+    padding: 25px;
+    font-size: 50px;
+    background-color: aliceblue;
+    height: 100px;
+    width: 100px;
+    border-radius: 25%;
+  
+
+}
+
+.menubar{
+    background-color: black;
+    position: absolute;
+    left: 15px;
+    height: 99%;
+    width: 600px;
+    border: 1px solid black;
+    visibility: hidden;
+}
+.head{
+   
+    position: relative;
+    height: 100px;
+    width: 580px;
+    border: 0.5px solid rgb(245, 231, 231);
+    margin: 10px;
+   
+}
+#q{
+
+    height: 60px;
+    width: 200px;
+    text-align: left;
+}
+#w{
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 20px;
+    top:20px;
+    font-size: 32px;
+    background-color: aliceblue;
+    border-radius: 25%;
+}
+.profile{
+    position: relative;
+    background-color: aliceblue;
+    margin: 10px;
+    height: 200px;
+    width: 580px;
+    border: 0.5px solid black;
+}
+#profilepic{
+    
+    margin:30px;
+    border-radius: 50%;
+}
+#name{
+   font-size: 30px;
+    padding: 10px;
+    height: 60px;
+    width: 280px;
+    position: absolute;
+    right: 80px;
+    top:20px;
+    color:black;
+}
+#email{
+   font-size: 30px;
+    padding: 10px;
+    min-height: 60px;
+    min-width: 380px;
+    position: absolute;
+    right: 80px;
+    top:80px;
+    color:black;
+}
+.data{
+    height: 76%;
+    width:580px ;
+    border: 0.5px solid white;
+    margin: 8px;
 }
